@@ -40,7 +40,7 @@ fn pep() {
     ));
 }
 
-// additional tests, based on https://pip.pypa.io/en/stable/topics/secure-installs/
+// additional tests, based on https://pip.pypa.io/en/stable/topics/secure-installs/#hash-checking-mode
 #[test]
 fn additional() {
     assert_debug_snapshot!(parse("FooProject == 1.2 \
