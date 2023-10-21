@@ -11,8 +11,8 @@ repository = "https://github.com/figsoda/pep-508"
 license = "MPL-2.0"
 keywords = ["dependency", "parser", "pep508", "python", "requirements"]
 categories = ["parser-implementations"]
-
-[dependencies]
-chumsky = "1.0.0-alpha.5"
 [dev-dependencies]
 insta = "1.28.0"
+
+[dependencies]
+chumsky = "=1.0.0-alpha.3"
